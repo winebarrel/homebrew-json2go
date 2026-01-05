@@ -3,7 +3,7 @@ cask "json2go" do
   name "json2go"
   desc "json2go is a tool to convert JSON to Go struct."
   homepage "https://github.com/winebarrel/json2go"
-  version "2.4.0"
+  version "2.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "json2go" do
   on_macos do
     on_intel do
       url "https://github.com/winebarrel/json2go/releases/download/v#{version}/json2go_#{version}_darwin_amd64.tar.gz"
-      sha256 "4a3ce7f40459fa246dea7841f8ba735a249dafaaca1eb879405130ffea05617e"
+      sha256 "24c2b0235d7743393da2edf74db3d5ce869a0d25d3f99e78d6767040d52706b1"
     end
     on_arm do
       url "https://github.com/winebarrel/json2go/releases/download/v#{version}/json2go_#{version}_darwin_arm64.tar.gz"
-      sha256 "fd8fc67e29c7f0d174e42fa442c6fd85e13f7135bd8fdc2698b1f9f70aec16c9"
+      sha256 "e75eb5c07c809ebbd618959b9d1a4165db0d6ae5209759e596b20d77212b4e5c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/winebarrel/json2go/releases/download/v#{version}/json2go_#{version}_linux_amd64.tar.gz"
-      sha256 "5b8e580dd58af5fa65d765c20be32cd1fca42be4cb136bf7cd0997ed30fcb68a"
+      sha256 "4f1f05a4a99d0fb84f4e0e4b5b449a978b12c4b8385c0f24faceeb5828790bd0"
     end
     on_arm do
       url "https://github.com/winebarrel/json2go/releases/download/v#{version}/json2go_#{version}_linux_arm64.tar.gz"
-      sha256 "4276ba1a75bba3e0fc5ea20d38438b48733e497e7bb346862752a6159aab2b44"
+      sha256 "ede92980a4b482ae4fa3ed978f39305a8d79522395ea00c5e72456a15205f0c8"
     end
   end
 
